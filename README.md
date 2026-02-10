@@ -153,3 +153,119 @@ tr:hover {
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  width: 70%;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: Arial;
+}
+th {
+  background: red;
+  color: white;
+  padding: 10px;
+  border: 2px solid yellow;
+}
+td {
+  background: yellowgreen;
+  padding: 10px;
+  border: 2px solid yellow;
+}
+caption {
+  font-size: 22px;
+  font-weight: bold;
+  background: yellow;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <caption>Make HTML Table</caption>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Position</th>
+    <th>Salary</th>
+  </tr>
+  <tr>
+    <td>James</td>
+    <td>Jeo</td>
+    <td>CEO</td>
+    <td>$1300</td>
+  </tr>
+  <tr>
+    <td>Kate</td>
+    <td>Harns</td>
+    <td>Designer</td>
+    <td>$1000</td>
+  </tr>
+  <tr>
+    <td>Bryan</td>
+    <td>Brian</td>
+    <td>Team Leader</td>
+    <td>$700</td>
+  </tr>
+  <tr>
+    <td>Lesely</td>
+    <td>Prcnic</td>
+    <td>Author</td>
+    <td>$500</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nested List</title>
+</head>
+<body>
+
+<h2>Some of my favorite links</h2>
+
+<ul>
+    <li>Social Networking
+        <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+        </ul>
+    </li>
+
+    <li>Reference
+        <ul>
+            <li>Google</li>
+            <li>Wikipedia</li>
+            <li>Dictionary</li>
+        </ul>
+    </li>
+
+    <li>Web Development
+        <ul>
+            <li>HTML/CSS
+                <ul>
+                    <li>W3Schools</li>
+                    <li>MDN Web Docs</li>
+                </ul>
+            </li>
+            <li>Programming
+                <ul>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+</body>
+</html>
